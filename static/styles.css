@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    background: #f4f4f4;
+    padding: 30px;
+    border-radius: 8px;
+
+    
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+   
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+#authorized_emails {
+    width: 100%;  /* Match other input fields */
+    padding: 10px;  /* Consistent padding */
+    height: 60px;  /* Slightly larger vertical height */
+    font-size: 16px;  /* Make text readable */
+    border: 1px solid #ccc;  /* Match other inputs */
+    border-radius: 5px;  /* Rounded corners */
+    resize: none;  /* Prevent manual resizing */
+    margin-bottom: 10px;
+    
+}
+textarea{
+    margin-top:10px;
+}

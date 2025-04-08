@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shorten URL</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='styles.css') }}">
+    <script src="{{ url_for('static', path='script.js') }}" defer></script>
+</head>
+<body>
+    <h2>Shorten a URL</h2>
+    <form id="shortenForm">
+        <label for="original_url">Original URL:</label>
+        <input type="text" id="original_url" name="original_url" required><br>
+
+        <label for="creator_email">Your Email:</label>
+        <input type="email" id="creator_email" name="creator_email" required><br>
+
+        <label for="authorized_emails">Authorized Emails (comma-separated):</label>
+        <textarea id="authorized_emails" name="authorized_emails"></textarea><br>
+
+        <button type="submit">Shorten</button>
+    </form>
+
+    <p id="result"></p>
+
+</body>
+</html>
