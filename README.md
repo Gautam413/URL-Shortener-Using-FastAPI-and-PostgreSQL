@@ -92,3 +92,7 @@ The app will be available at `http://127.0.0.1:8000`
 ├── requirements.txt
 └── .env
 ```
+
+## License
+This project is licensed under the MIT License.
+
