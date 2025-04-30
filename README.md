@@ -93,6 +93,9 @@ The app will be available at `http://127.0.0.1:8000`
 └── .env
 ```
 
+## Feedback
+Feel free to [open an issue](https://github.com/Gautam413/URL-Shortener-Using-FastAPI-and-PostgreSQL/issues) .
+
 ## License
 This project is licensed under the MIT License.
 
