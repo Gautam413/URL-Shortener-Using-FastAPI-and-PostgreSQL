@@ -11,7 +11,7 @@ This is a secure and feature-rich URL shortener built using FastAPI and PostgreS
 
 - Secure access via email-based verification
 - URL expiration support
-- Email notifications
+- Email notifications to creators
 - Access logging
 - PostgreSQL + Alembic for migrations
 
